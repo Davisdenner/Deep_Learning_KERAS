@@ -14,7 +14,7 @@ from tensorflow import keras
 import matplotlib.pyplot as plt
 import numpy as np
 
-"""##Carregando o dataset"""
+"""##Carregando o dataset__"""
 
 dataset = keras.datasets.fashion_mnist
 ((imagens_treino, identificacoes_treino), (imagens_teste, identificacoes_teste)) = dataset.load_data()
